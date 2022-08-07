@@ -4,3 +4,10 @@
 -Section to view all To-dos together.
 -Option to Delete and Edit the To-dos.
 -Local Storage to store To-do List.
+
+What to learn:
+-DOM Manipulation.
+-Event Listeners.
+-Local Storage.
+-High Order JavaScript Methods.
+-ES6 Javascript Features like Arrow Functions.
