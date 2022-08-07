@@ -1,0 +1,6 @@
+-Add a Task.
+-Mark the task as completed.
+-Seprate section to view completed To-dos.
+-Section to view all To-dos together.
+-Option to Delete and Edit the To-dos.
+-Local Storage to store To-do List.
