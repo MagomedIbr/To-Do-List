@@ -1,0 +1,15 @@
+1.Die ersten Paar Zeilen importieren Bootstrap und die Bootstrap Iconts
+ in das Projekt. Zudem wird das Charsetz auf UTF-8 gestellt.
+ Für andere Projekte das einfach copy pasten.
+
+2. Oberster Teil der HTMl ist der "TO DO LIST" Text,
+ die Leiste in der Mann die Aufgabe eingibt" und ein Knopf zum Hinzufügen.
+ Dafür wird eine Form benutzen um user Input zu sammeln und eine inputGroup 
+ mit einer ID um diesen Input später in Javascript zu benutzen.
+
+3. Es wird ein Bootstrap Tab benutzt um die 3 Punkte darunter anzuzeigen.
+Habe "Bootstrap Tabs" gegoogelt und das was am besten passt rauskopiert.
+
+4. Google "Bootstrap List Group" und das gewollte Raussuchen. 
+Span packt die 3 Punkte an das Ende der Liste.
+

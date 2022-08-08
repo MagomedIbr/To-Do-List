@@ -15,6 +15,49 @@
 </head>
 
 <body>
+    <div class="container">
+        <div class = "row">
+            <div class = "col-*-* text-center" >
+                <div class = "alert align-items-center" id="message"> </div>
+                <form id = "itemForm"> 
+                    <h3 class = ""> TO DO LIST</h3>
+                    <div class = "input-group ">
+                        <input type ="text" class="form-control" id="itemInput" value ="" placeholder="Please enter a task...">
+                        <button class="btn btn-outline-primary"> ADD ITEM</button>
+
+                    </div>
+                </form>
+                <ul class="nav nav-tabs">
+                    <li class="nav-item" data-type = "all" >
+                      <a class="nav-link active" aria-current="page" href="#">All</a>
+                    </li>
+                    <li class="nav-item" data-type = "todo">
+                      <a class="nav-link" href="#">To Do</a>
+                    </li>
+                    <li class="nav-item" data-type = "Completed">
+                      <a class="nav-link" href="#">Completed</a>
+                    </li>
+                   
+                  </ul>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      Task 1 
+                      <span>
+                        <a> todo </a>
+                        <a> edit </a>
+                        <a> delete </a>
+
+                      </span>
+                      
+
+                    </li>
+                    
+                  </ul>
+
+            </div>
+        </div>
+
+    </div>
     Hello World!<br /> 
     Does it work?<br /> 
     Yes it does! <br /> 
