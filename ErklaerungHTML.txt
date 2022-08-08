@@ -12,4 +12,6 @@ Habe "Bootstrap Tabs" gegoogelt und das was am besten passt rauskopiert.
 
 4. Google "Bootstrap List Group" und das gewollte Raussuchen. 
 Span packt die 3 Punkte an das Ende der Liste.
+Für Icons auf der Bootstrap Seite unter Icons gucken.
+Mit Style am Anfang Klassen für rot und Grün hinzugefügt.
 
