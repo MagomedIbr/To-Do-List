@@ -1,3 +1,4 @@
+HTML:
 1.Die ersten Paar Zeilen importieren Bootstrap und die Bootstrap Iconts
  in das Projekt. Zudem wird das Charsetz auf UTF-8 gestellt.
  Für andere Projekte das einfach copy pasten.
@@ -14,4 +15,7 @@ Habe "Bootstrap Tabs" gegoogelt und das was am besten passt rauskopiert.
 Span packt die 3 Punkte an das Ende der Liste.
 Für Icons auf der Bootstrap Seite unter Icons gucken.
 Mit Style am Anfang Klassen für rot und Grün hinzugefügt.
+
+Javascript:
+Const für die Dokumente um die properties des Objektes zu ändern
 
