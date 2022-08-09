@@ -31,7 +31,15 @@ const getList = function (todoItems){
             
           </li>`
             itemList.insertAdjacentHTML("beforeend",liTag);
+            
         });
+    }
+    else{
+        let liTag = `
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+               <span>No Records Found.</span>
+        </li>`;
+        itemsList.insertAdjacentHTML("beforeend", liTag);
     }
 }
 
@@ -62,8 +70,8 @@ const getLocalStorage = function(){
 document.addEventListener("DOMContentLoaded", ()=> {
     form.addEventListener("submit", (e)=>{
         e.preventDefault();
-        const itemName = input.value;
-        if(itemName == ""){
+        const itemName = input.value.trim();
+        if(itemName.length === 0 ){
             alert("Please Enter a Task");
         }
         else{
